@@ -1,0 +1,6 @@
+com\xyz\weather\WeatherApplicationTests.class
+com\xyz\weather\data\Data.class
+com\xyz\weather\repositoryTest\testWeatherRepository.class
+com\xyz\weather\proxyTest\WeatherProxyTest.class
+com\xyz\weather\serviceTest\WeatherServiceImplTest.class
+com\xyz\weather\serviceTest\WeatherServiceTest.class

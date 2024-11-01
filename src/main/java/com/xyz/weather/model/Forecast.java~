@@ -1,0 +1,38 @@
+package com.xyz.weather.model;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.*;
+
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Forecast {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String date;
+
+    @OneToMany(mappedBy = "forecast", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Day> day;
+
+    @ManyToOne
+    //@JsonBackReference
+    private Weather weather;
+
+//    @JsonManagedReference
+//    @OneToMany(mappedBy="forecast",cascade = CascadeType.ALL, orphanRemoval = true)
+//    @JsonProperty("forecastday")
+//    private List<ForecastDay> forecastday;
+
+}
