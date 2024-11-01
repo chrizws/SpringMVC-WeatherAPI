@@ -46,25 +46,14 @@ weather.url = http://api.weatherapi.com/
 
 ## Examples
 - Searching and inserting
-
-https://github.com/user-attachments/assets/d205b85c-2b17-4813-a374-5abe1a01a1c4
+  
+https://github.com/user-attachments/assets/6eb584a0-060e-4311-a3c3-b938c1c4305d
 
 - Deleting a row and record
+  
+https://github.com/user-attachments/assets/829501c8-9651-48de-b885-f9071d5e2e5e
 
-https://github.com/user-attachments/assets/ee631c5c-d6aa-4472-b51e-824cc05799de
-
-- Pagination
-
-https://github.com/user-attachments/assets/d3254e18-d161-4a1f-b8fb-7f9c7236cffa
-
-- Searching the table
-
-https://github.com/user-attachments/assets/e34745e8-9cb0-457a-9c8d-bc37e289a618
-
-- Sorting a column
-
-https://github.com/user-attachments/assets/cfd35f54-6f5d-40e5-8794-f8406e645eb7
-
-
-
+- Searching and sorting
+  
+https://github.com/user-attachments/assets/0e6b64aa-abfd-4d91-b0eb-bb598c70e060
 
